@@ -49,6 +49,7 @@ def build_feature_set(markets):
     return pd.DataFrame(data)
     
 
+
 def get_gpt_opinion_summary(question):
     try:
         messages = [
