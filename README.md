@@ -89,8 +89,10 @@ OPENAI_API_KEY=your-openai-api-key-here
 ```
 Make sure `.env` is included in `.gitignore`!
 
-4. ** If you have problems**
+4. **If you have problems**
+5. 
    I've only ran into one problem so far
+   
     if you have an error in the heading part of the code try running
    ```
    ! pip install python-dotenv
