@@ -9,7 +9,7 @@ It combines:
 
 
 
-##  How It Works
+##  How It Works?
 
 ### 1. Market Data Collection
 - Retrieves market data from Manifold's public API.
