@@ -107,6 +107,7 @@ Q: Will Trump return to Twitter before November 2024? → 0.59
 - Small sample size may limit generalization
 - GPT answers are not live probability trackers
 - Does not yet analyze comment sentiment or trader history
+- Needs lots of data bases to be pin point accurate 
 
 
 ##  License
