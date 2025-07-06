@@ -1,4 +1,4 @@
-# 📊 Predicting Manifold Markets Using GPT + Random Forest
+#  Predicting Manifold Markets Using GPT + Random Forest
 
 This project uses real-time data from [Manifold Markets](https://manifold.markets) to predict outcomes of unresolved **binary prediction markets**.
 
