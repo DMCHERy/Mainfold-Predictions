@@ -47,6 +47,7 @@ def build_feature_set(markets):
         except KeyError:
             continue
     return pd.DataFrame(data)
+    
 
 def get_gpt_opinion_summary(question):
     try:
