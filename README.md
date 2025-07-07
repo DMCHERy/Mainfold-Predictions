@@ -89,7 +89,9 @@ Make sure `.env` is included in `.gitignore`!
 ##  Limitations
 
 -Quite small scale 
+
 -Needs Better Understandfing of the Mainfold Markets with the APIs of News corp's
+
 -Many Many more data bases needed for it to be extremely accurate
 
 
