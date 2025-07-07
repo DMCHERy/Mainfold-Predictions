@@ -86,24 +86,11 @@ Make sure `.env` is included in `.gitignore`!
 
 
 
-
-##  Example Output
-
-```
-Top Predictions:
-Q: Will "Surprising LLM reasoning failures" be in the mainstream media? → 0.78
-Q: Will a major U.S. bank fail by the end of the year? → 0.61
-Q: Will Trump return to Twitter before November 2024? → 0.59
-```
-
-
-
 ##  Limitations
 
-- Small sample size may limit generalization
-- GPT answers are not live probability trackers
-- Does not yet analyze comment sentiment or trader history
-- Needs lots of data bases to be pin point accurate 
+-Quite small scale 
+-Needs Better Understandfing of the Mainfold Markets with the APIs of News corp's
+-Many Many more data bases needed for it to be extremely accurate
 
 
 ##  License
