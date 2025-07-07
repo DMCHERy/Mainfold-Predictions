@@ -19,6 +19,7 @@ def fetch_markets():
     response.raise_for_status()
     return response.json()
 
+
 def filter_binary_resolved(markets):
     return [
         m for m in markets
@@ -27,7 +28,7 @@ def filter_binary_resolved(markets):
         and m.get('resolution') in ['YES', 'NO']
     ]
 
-# GPT integration
+
 def get_gpt_opinion_summary(question):
     try:
         messages = [
@@ -85,6 +86,7 @@ def train_and_evaluate(df):
 
     return clf
 
+
 def fetch_unresolved_binary():
     url = "https://api.manifold.markets/v0/markets"
     response = requests.get(url)
@@ -92,7 +94,7 @@ def fetch_unresolved_binary():
     return [
         m for m in response.json()
         if m['outcomeType'] == 'BINARY'
-        and not m.get('isResolved', False)
+        and m.get('isResolved', False) and m['resolution'] in ['YES', 'NO']
     ]
 
 def build_unresolved_features(markets):
@@ -140,7 +142,7 @@ def predict_unresolved(model):
     df_features.to_csv("manifold_predictions.csv", index=False)
     print("Predictions saved to 'manifold_predictions.csv'")
 
-#  Execut
+
 if __name__ == "__main__":
     try:
         print("Fetching markets...")
