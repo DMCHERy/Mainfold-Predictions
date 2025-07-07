@@ -44,7 +44,7 @@ It’s kind of like giving the model a voice in the room — a way to simulate o
 ##  Model Performance Testing
 
 You will need to run the [Mainfold Predictor](https://github.com/DMCHERy/Mainfold-Predictions/blob/main/Mainfold%20Predictor.py)
-Only then you will be able to check your prediction using the [Mainfold_Backtester](https://github.com/DMCHERy/Mainfold-Predictions/blob/main/Markets_Backtester.py)  The Manifold Predictor doesn't use the results of resolved markets — it's only showcasing the predictions, without having to wait months or years for those markets to resolve. Even though it's just for fun, it does predict future markets — and technically (not saying you should, for legal reasons), it could totally give you an edge when guessing outcomes.
+Only then you will be able to check your prediction using the [Mainfold_Backtester](https://github.com/DMCHERy/Mainfold-Predictions/blob/main/Markets_Backtester.py)  The Manifold Predictor doesn't use the results of resolved markets — it's only showcasing the predictions, without having to wait months or years for those markets to resolve. Even though it's just for fun, it does predict future markets — and technically (not saying you should, for legal reasons), it could give you an edge when guessing outcomes.
 
 
 ##  Setup & Installation
