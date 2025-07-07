@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+![Status](https://img.shields.io/badge/status-Alpha-red)
 #  Predicting Manifold Markets Using GPT + Random Forest
 
 This project uses real-time data from [Manifold Markets](https://manifold.markets) to predict outcomes of unresolved **binary prediction markets**.
