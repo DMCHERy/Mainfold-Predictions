@@ -34,20 +34,12 @@ Extracts structured features such as:
 - A ranked list is saved to `manifold_predictions.csv`.
 
 
-
-##  GPT Integration
-All market questions are passed to OpenAI GPT-3.5 with the following prompt:
-
-```
-You are a helpful analyst. For a given prediction market question, estimate the probability (0 to 1) that the answer will be YES.
-
-Q: Will Anthropic release Claude 3.5 before August 2024?
-A: 0.72
-```
-
-Used as a **proxy for public sentiment** or outside priors.
-
-
+## GPT Integration
+Each market question gets sent to GPT-3.5 and it tries to make a smart guess based on how the question is worded. I ask it to treat every market like a yes/no problem and do its best.
+ ```
+Example prompt: “Please try to look at this question as a binary problem and predict this to the best of your ability.”
+ ```
+It’s kind of like giving the model a voice in the room — a way to simulate outside opinions or public vibes.
 
 ##  Model Performance Testing
 
