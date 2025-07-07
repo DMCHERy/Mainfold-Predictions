@@ -49,16 +49,10 @@ Used as a **proxy for public sentiment** or outside priors.
 
 
 
-##  Model Performance
+##  Model Performance Testing
 
-- **Accuracy**: ~43% (on small recent sample)
-- **Feature Importances:**
-  - `timeOpen`: 0.32
-  - `questionLength`: 0.25
-  - `volume`: 0.23
-  - `numTraders`: 0.20
-  - `gpt_confidence`: ~0.15
-
+You will need to run the [Mainfold Predictor](https://github.com/DMCHERy/Mainfold-Predictions/blob/main/Mainfold%20Predictor.py)
+Only then you will be able to check your prediction using the [Mainfold_Backtester](https://github.com/DMCHERy/Mainfold-Predictions/blob/main/Markets_Backtester.py) - The Manifold Predictor doesn't use the results of resolved markets — it's only showcasing the predictions, without having to wait months or years for those markets to resolve. Even though it's just for fun, it does predict future markets — and technically (not saying you should, for legal reasons), it could totally give you an edge when guessing outcomes.
 
 
 ##  Files Included
