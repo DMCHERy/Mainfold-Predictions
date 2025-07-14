@@ -8,7 +8,7 @@ This project uses real-time data from [Manifold Markets](https://manifold.market
 It combines:
 -  Market data scraped from the public API
 -  A Random Forest model trained on past resolved markets
--  GPT-3.5 as a probabilistic reasoning signal
+-  GPT-3.5 as a probabilistic reasoning signals
 
 
 
